@@ -16,7 +16,7 @@ function calculateMinCost() {
 		cost += newRope;
 		inputArr.splice(0,2);
 		inputArr.push(newRope);
-		inputArr.sort(function(a,b){return a-b})
+		inputArr.sort(function(a,b){return a-b;});
 	}
 	
   
